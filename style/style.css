@@ -1,1 +1,73 @@
 /*# sourceMappingURL=style.css.map */
+html {
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
+  background-color: #a8a29e;
+}
+
+body {
+  margin: 0;
+}
+
+.page__wrapper {
+  max-width: 1000px;
+  display: flex;
+}
+.left-dashbord__container {
+  background-color: blue;
+  width: 10%;
+  height: 100vh;
+}
+
+.main-content {
+  width: 50%;
+  height: 100vh;
+  background-color: white;
+}
+
+header {
+  max-width: 100%;
+  height: 10vh;
+  background-color: red;
+}
+
+.projects__container {
+  width: 100%;
+  height: 90vh;
+  background-color: salmon;
+  border: 2px black;
+  display: flex;
+  gap: 10px;
+  padding-top: 10px;
+}
+
+.projects {
+  width: 70%;
+  height: 100%;
+  background-color: blueviolet;
+  margin-left: 10px;
+}
+
+.right-side__container {
+  width: 30%;
+  height: 100%;
+  background-color: bisque;
+}
+
+.cards-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.card {
+  width: 100%;
+  height: 150px;
+  background-color: white;
+}
+
+.card-yellow {
+  width: 100%;
+  height: 100px;
+  background-color: white;
+}
