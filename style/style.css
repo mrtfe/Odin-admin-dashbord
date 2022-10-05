@@ -4,7 +4,6 @@
 html {
   font-family: "Raleway", sans-serif;
   font-family: "Roboto", sans-serif;
-  background-color: #a8a29e;
 }
 
 body {
@@ -31,6 +30,7 @@ body {
   color: white;
   font-size: 18px;
   font-weight: 600;
+  cursor: pointer;
 }
 
 .nav {
@@ -39,6 +39,7 @@ body {
   font-size: 12px;
   font-weight: 500;
   margin-bottom: 10px;
+  cursor: pointer;
 }
 
 .nav:nth-child(8) {
@@ -87,6 +88,11 @@ header {
 .profile img {
   max-width: 30px;
   border-radius: 50%;
+  cursor: pointer;
+}
+
+.material-symbols-outlined {
+  cursor: pointer;
 }
 
 .profile p {
@@ -110,6 +116,7 @@ header {
 .header-bottom__left img {
   max-width: 40px;
   height: 40px;
+  cursor: pointer;
 }
 
 .profile-greet {
@@ -136,6 +143,7 @@ h4 {
   border: none;
   border-radius: 10px;
   height: 22px;
+  cursor: pointer;
 }
 
 .projects__container {
@@ -164,7 +172,6 @@ h4 {
 .right-side__container {
   width: 30%;
   height: 100%;
-  background-color: bisque;
 }
 
 .cards-wrapper {
@@ -176,7 +183,6 @@ h4 {
 
 .card {
   max-width: 100%;
-  height: 200px;
   background-color: white;
   border-radius: 8px;
 }
@@ -209,4 +215,64 @@ h4 {
   justify-content: flex-end;
   margin: 0 15px 15px 0;
   gap: 15px;
+}
+
+.announcements-card {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  padding: 20px;
+  gap: 10px;
+  margin: 0px 20px 20px 10px;
+}
+
+.label {
+  margin-left: 10px;
+}
+
+.ann-label {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.ann-text {
+  font-size: 12px;
+  color: grey;
+  padding-bottom: 15px;
+}
+
+.card-content-top,
+.card-content-middle {
+  border-bottom: 1px solid rgba(128, 128, 128, 0.507);
+}
+
+.trending-section {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.trending-icon img {
+  max-width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.trending-user-tag {
+  font-size: 14px;
+  color: black;
+}
+
+.trending-user-genre {
+  font-size: 14px;
+  color: grey;
+}
+
+.trending-card {
+  padding: 20px;
+  margin-right: 20px;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
